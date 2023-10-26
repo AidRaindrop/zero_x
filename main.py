@@ -29,6 +29,7 @@ def add_x(column, row):
 
 def add_0(column, row):
     x = 10 + 100 * column
+    #dsff
     y = 10 + 100 * row
     games.create_oval(x, y, x + 80, y + 80, width=7, fill='#0000FF')
     #games.create_line(x, y+80, x+80, y, width=7, fill='#0000FF')
